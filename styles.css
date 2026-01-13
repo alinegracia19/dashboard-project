@@ -24,6 +24,9 @@ header {
 }
 
 aside {
+    position: sticky;
+    left: 0;
+    top: 0;
     background-color: var(--color3);
     grid-area: 1 / 1 / 3 / 2;;
 }
