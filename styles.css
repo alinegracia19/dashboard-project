@@ -39,7 +39,7 @@ aside {
 }
 
 main {
-    background-color: blueviolet;
+    background-color: var(--color1);
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -150,8 +150,34 @@ i {
 }
 
 #projects {
-    background-color: aqua;
     grid-area: 1 / 1 / 3 / 2;
+}
+
+#item-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+main h2 {
+    margin-bottom: 1rem;
+}
+
+.project {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    border-left: 0.5rem solid var(--color2);
+}
+
+.project-icon {
+    margin-top: 3rem;
+    float: right;
+}
+
+.project-icon i {
+    margin-left: 1rem;
 }
 
 #announcement {
